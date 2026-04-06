@@ -280,8 +280,8 @@ No feelings were harmed in the making of this app.
 
 <br/>
 
-[![Star this repo](https://img.shields.io/github/stars/YOUR_USERNAME/nickname-generator?style=social)](https://github.com/YOUR_USERNAME/nickname-generator)
-[![Follow on GitHub](https://img.shields.io/github/followers/YOUR_USERNAME?style=social)](https://github.com/YOUR_USERNAME)
+[![Star this repo](https://img.shields.io/github/stars/Snehar273/nickname-generator?style=social)](https://github.com/Snehar273/NickCrafter)
+[![Follow on GitHub](https://img.shields.io/github/followers/Snehar273?style=social)](https://github.com/Snehar273)
 
 <br/>
 
