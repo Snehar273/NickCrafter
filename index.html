@@ -3,22 +3,44 @@
   <head>
     <meta charset="UTF-8" />
 
-    <!-- 😎 Emoji favicon — no image file needed! -->
+    <!-- Emoji Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>😎</text></svg>" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NickCrafter — Auto Nickname Generator</title>
     <meta name="description" content="Generate funny, savage, or cute nicknames for free! Drop your name, get roasted (lovingly 💕)" />
+
+    <!-- PWA essentials -->
+    <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#0e0e1c" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- iOS specific PWA support -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="NickCrafter" />
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>😎</text></svg>" />
 
     <!-- Open Graph (WhatsApp / social media preview) -->
     <meta property="og:title"       content="NickCrafter 😎 — Auto Nickname Generator" />
     <meta property="og:description" content="Drop your name. Get roasted. Lovingly 💕" />
     <meta property="og:type"        content="website" />
-    <meta property="og:url"         content="https://nickcrafter.vercel.app" />
+    <meta property="og:url"         content="https://nick-crafter.vercel.app" />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Register Service Worker -->
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("/sw.js")
+            .then(() => console.log("✅ NickCrafter PWA ready!"))
+            .catch((err) => console.log("SW error:", err));
+        });
+      }
+    </script>
   </body>
 </html>
