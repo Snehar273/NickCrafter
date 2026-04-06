@@ -25,7 +25,7 @@
 
 <br/>
 
-**[🚀 Live Demo](https://nickcrafter.vercel.app)** &nbsp;•&nbsp; **[🐛 Report Bug](https://github.com/YOUR_USERNAME/nickname-generator/issues)** &nbsp;•&nbsp; **[✨ Request Feature](https://github.com/YOUR_USERNAME/nickname-generator/issues)**
+**[🚀 Live Demo](https://nickcrafter.vercel.app)** &nbsp;•&nbsp; **[🐛 Report Bug](https://github.com/Snehar273/NickCrafter/issues)** &nbsp;•&nbsp; **[✨ Request Feature](https://github.com/Snehar273/NickCrafter/issues)**
 
 </div>
 
@@ -154,10 +154,10 @@ Got Node.js? You're 3 commands away.
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/nickname-generator.git
+git clone https://github.com/Snehar273/NickCrafter.git
 
 # 2. Go inside
-cd nickname-generator
+cd nickname_generator
 
 # 3. Install & run
 npm install && npm run dev
@@ -235,7 +235,7 @@ git push -u origin main
 - [ ] 📱 Android APK via Capacitor
 - [ ] 🌙 Extra dark / neon theme toggle
 
-Got an idea? [Open an issue!](https://github.com/YOUR_USERNAME/nickname-generator/issues) PRs are always welcome 🙌
+Got an idea? [Open an issue!](https://github.com/Snehar273/NickCrafter/issues) PRs are always welcome 🙌
 
 <br/>
 
@@ -280,7 +280,7 @@ No feelings were harmed in the making of this app.
 
 <br/>
 
-[![Star this repo](https://img.shields.io/github/stars/Snehar273/nickname-generator?style=social)](https://github.com/Snehar273/NickCrafter)
+[![Star this repo](https://img.shields.io/github/stars/Snehar273/NickCrafter?style=social)](https://github.com/Snehar273/NickCrafter)
 [![Follow on GitHub](https://img.shields.io/github/followers/Snehar273?style=social)](https://github.com/Snehar273)
 
 <br/>
